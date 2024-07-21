@@ -70,6 +70,21 @@ main {
   border-radius: 50%;
   margin: 20px 0;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.project-card {
+  margin: 20px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  min-height: 400px;
+}
+
 section {
   margin-bottom: 3rem;
 }
