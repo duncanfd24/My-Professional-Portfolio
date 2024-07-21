@@ -26,3 +26,5 @@ For any inquiries, please contact:
 
 Name: Fred Duncan
 Email: duncanfd40@gmail.com
+
+![image](https://github.com/user-attachments/assets/6d0f8630-3d0f-40bb-a2d8-e2f7e9f080a5)
