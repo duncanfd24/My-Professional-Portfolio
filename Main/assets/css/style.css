@@ -22,9 +22,6 @@ body {
   line-height: 1.5;
 }
 
-contact {
-
-}
 /* Header Styles */
 header {
   background-color: var(--outer-space);
@@ -59,6 +56,7 @@ nav ul li a:hover {
 main {
   padding: 2rem;
 }
+
 .profile-pic-container {
   text-align: center;
   padding: 20px;
@@ -78,11 +76,20 @@ main {
   margin-top: 30px;
 }
 
-.project-card {
+.project {
   margin: 20px;
   flex: 1 1 calc(33.333% - 40px);
   box-sizing: border-box;
-  min-height: 400px;
+  min-height: 200px;
+}
+
+.project-large {
+  flex: 1 1 100%;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
 }
 
 section {
@@ -95,16 +102,13 @@ h2 {
   color: var(--heliotrope);
 }
 
-/* Work Item Styles */
-.work-item {
-  margin-bottom: 2rem;
+ul {
+  list-style: none;
 }
 
-.work-item img {
-  width: 100%;
-  height: auto;
+ul li {
+  margin-bottom: 0.5rem;
 }
-
 
 /* Responsive Design */
 @media (min-width: 768px) {
